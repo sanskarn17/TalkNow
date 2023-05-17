@@ -1,0 +1,104 @@
+.userHead{
+    background: pink;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid #5453e0
+}
+.userAvatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.goBack{
+    display: flex;
+    align-items: center;
+    background: none;
+    outline: none;
+    margin-top:2rem;
+}
+.goBack span{
+    color: #fff;
+    font-size:16px;
+    margin-left:1rem;
+    position: relative; 
+    font-weight: 550;
+}
+.goBack span::after{
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 60%;
+    height: 4px;
+    background: #0077FF;
+    border-radius: 10px;
+}
+.clientsWrap{
+    background: #1F7A8C;
+    margin-top:4rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: calc(100vh-205px);
+    padding: 2rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.actions{
+    display: flex;
+    align-items: center;
+}
+.actionButton{
+    background: #022B3A;
+    outline: none;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding:0.7rem 1rem;
+    color: #fff;
+    transition: all 0.3s ease-in-out;    
+}
+.actionButton:hover{
+    background: #333;
+}
+.actionButton span{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.topic{
+    font-size: 18px;
+
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clientsList{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.client h4{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.micBtn{
+    background: #c35c5c;
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:15px;
+    height: 15px;
+    box-sizing: content-box;
+    border-radius:30px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
